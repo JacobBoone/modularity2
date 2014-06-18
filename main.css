@@ -59,9 +59,33 @@
 
 
 
+.button {
 
+	background-color: indianred;
+	color: white;
+	border-radius: 7px;
+	display: inline-block;
+	margin-left: 2px;
+	padding: 20px;
+}
 
+.buynow {
+	padding: 25px 55px;
+	font-size: 25px
+	
+}
 
+.learn {
+	padding: 12px 40px;
+	border-style: none;
+	text-decoration: none;
 
+	
+}
+
+.ok {
+	padding: 5px 5px;
+	font-size: 13px
+}
 
 
