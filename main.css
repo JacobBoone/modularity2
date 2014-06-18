@@ -1,6 +1,7 @@
 /* ADD YOUR STYLES HERE */
 
 /*-----  part 6 Horizontally Spaced  ---*/
+/*part1*/
 .bigbox {
 	margin-left: 72px;
 }
@@ -10,6 +11,7 @@
 	float: center;
 }
 
+/* part 2*/
 .fancybox {
 	margin-left: 20px;
 	margin-top: 20px;
@@ -25,7 +27,35 @@
 .fancybox p, .fancybox ol {
 	display: inline-block;
 	vertical-align: text-top;
-
+}
 /*  ------    Part 7 Vertically Spaced    -----*/
+/*part1*/
+
+.smallbox img{
+	padding-top: 125px;
+	padding-bottom: 125px;
+
+}
+
+/*part2*/
+.smallgrouping {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*  ------    Part 8 horizontal list   -----*/
+/*part1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
