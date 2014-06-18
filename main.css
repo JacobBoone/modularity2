@@ -1,9 +1,31 @@
 /* ADD YOUR STYLES HERE */
+
+/*-----  part 6 Horizontally Spaced  ---*/
+.bigbox {
+	margin-left: 72px;
+}
+
 .bigbox img{
 	padding: 25px;
 	float: center;
 }
 
-.bigbox {
-	margin-left: 72px;
+.fancybox {
+	margin-left: 20px;
+	margin-top: 20px;
 }
+
+.fancybox img {
+	padding: 30px;
+	padding-top: 0;
+	float: center;
+	vertical-align: top;
+}
+
+.fancybox p, .fancybox ol {
+	display: inline-block;
+	vertical-align: text-top;
+
+/*  ------    Part 7 Vertically Spaced    -----*/
+
+
