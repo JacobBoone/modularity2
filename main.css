@@ -42,14 +42,20 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
 /*  ------    Part 8 horizontal list   -----*/
-/*part1*/
+
+.horizontallist {
+	padding-left: 0;
+}
+
+.horizontallist li {
+	display: inline-block;
+	float: left;
+}
 
 
-
-
-
-
+/*  ------    Part 9 Buttons   -----*/
 
 
 
