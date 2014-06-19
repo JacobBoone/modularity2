@@ -174,14 +174,74 @@ border-top-right-radius: 7px;
 	font-size: 12px;
 }
 
+/*  -----    part 13  tabs    ---  */
 
 
 
+.hlist {
+	padding-left: 0px;
+}
 
+.hlist li{
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+	margin-left: 5px;
+	border-style: solid;
+	border-bottom-style: none;
+	border-width: 1px;
+	border-color: blue;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
 
+}
 
+.hlist li a{
+	text-decoration: none;
+	/*position: absolute;*/
+}
 
+/*.hlist li a :hover{
+	border-bottom-style: none;
+	font-family: georgia;
+	margin-bottom: -2px;
+}*/
 
+.hlist li a div {
+	padding-right: 30px;
+	font-family: impact;
+	color: blue;
+
+}
+
+.cheesecake {
+	display: inline-block;
+	position: relative;
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+	border-radius: 7px;
+	/*visibility: hidden;*/
+	/*margin-top: -5px;*/
+	
+	/*border:solid 1px blue;*/
+}
+
+.cheesecake p {
+	padding-left: 8px;
+	padding-top: 5px;
+}
+
+.nobottom div{
+	/*position: relative;*/
+	/*border-bottom-width: 0;*/
+	/*bottom: 100%;*/
+	/*visibility: visible;*/
+	/*position: fixed;*/
+	/*margin-bottom: 10px;*/
+	padding-bottom: 1px;
+	/*z-index: 10;*/
+}
 
 
 
