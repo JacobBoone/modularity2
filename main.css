@@ -49,7 +49,7 @@
 	padding-left: 0;
 }
 
-.horizontallist li {
+.horizontallist li{
 	display: inline-block;
 	float: left;
 }
@@ -59,7 +59,7 @@
 
 
 
-.button {
+.button{
 
 	background-color: indianred;
 	color: white;
@@ -67,6 +67,7 @@
 	display: inline-block;
 	margin-left: 2px;
 	padding: 20px;
+
 }
 
 .buynow {
@@ -87,5 +88,65 @@
 	padding: 5px 5px;
 	font-size: 13px
 }
+
+/*   ----   lesson 10   Navigation   -----    */
+/*having trouble making long and solid, rounding rounds each
+word block*/
+
+.navigationlist li{
+	display: inline-block;
+	background-color: indianred;
+	float: left;
+	/*margin-left: 30px;*/
+	padding: 20px;
+	/*width: 500px;*/
+	border-radius: 1px;
+
+}
+
+
+.navigationlist li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+
+/* --------   Part 11  Pagination   ------  */
+
+
+.pagination {
+	padding: 5px;
+}
+
+.pagination li{
+	display: inline-block;
+	float: center;
+	color: white;
+	/*background-color: blue;*/
+
+}
+
+
+
+.pagination li a{
+	color: indianred;
+	/*text-decoration: solid;*/
+	font-size: 20px;
+	padding: 10px;
+	font: arial;
+	text-decoration: solid indianred 6px;
+
+}
+
+.pagination li span{
+	font-size: 20px;
+	color: lightgrey;
+	text-decoration: none;
+}
+
+
+
+
 
 
