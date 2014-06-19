@@ -93,25 +93,36 @@
 /*having trouble making long and solid, rounding rounds each
 word block*/
 
-.navigationlist li{
-	display: inline-block;
-	background-color: indianred;
-	float: left;
-	/*margin-left: 30px;*/
-	padding: 20px;
-	/*width: 500px;*/
-	border-radius: 1px;
 
+
+.navigationlist ul li{
+	display: inline-block;
+	float: left;
+	background-color: indianred;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
 }
 
 
-.navigationlist li a{
+.left-corners{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+.right-corners {
+border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.navigationlist ul li a{
 	text-decoration: none;
 	color: white;
-
 }
 
 
+	
 /* --------   Part 11  Pagination   ------  */
 
 
@@ -142,7 +153,8 @@ word block*/
 .pagination li span{
 	font-size: 20px;
 	color: lightgrey;
-	text-decoration: none;
+	text-decoration: bold lightgrey 6px;
+
 }
 
 
