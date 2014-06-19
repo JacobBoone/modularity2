@@ -134,8 +134,6 @@ border-top-right-radius: 7px;
 	display: inline-block;
 	float: center;
 	color: white;
-	/*background-color: blue;*/
-
 }
 
 
@@ -156,6 +154,50 @@ border-top-right-radius: 7px;
 	text-decoration: bold lightgrey 6px;
 
 }
+
+
+/*   Part 12    Comment Stream    */
+
+
+
+.imagealign, .textalign{
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.large, .small {
+	vertical-align: top;
+}
+
+.large time, .small time{
+	color: lightgrey;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
